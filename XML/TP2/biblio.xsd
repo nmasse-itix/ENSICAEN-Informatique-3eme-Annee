@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <xsd:element name="bibliographie">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:choice minOccurs="0" maxOccurs="unbounded">
+          <xsd:element ref="livre" />
+          <xsd:element ref="article" />
+        </xsd:choice>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="livre">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="titre" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="auteur" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+        <xsd:element ref="tomes" minOccurs="0" maxOccurs="1"/>
+        <xsd:element ref="infosEdition" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="avis" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="article">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="titre" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="auteur" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+        <xsd:element ref="infosPublication" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="avis" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="infosEdition">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="editeur" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="lieuEdition" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="lieuImpression" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="ISBN" type="typeISBN" minOccurs="1" maxOccurs="1"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="infosPublication">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="pages" type="typePages" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="anneePublication" type="xsd:gYear" minOccurs="1" maxOccurs="1"/>
+        <xsd:element name="numeroJournal" type="xsd:positiveInteger" minOccurs="1" maxOccurs="1"/>
+      </xsd:sequence>
+      <xsd:attribute name="nomJournal" type="xsd:string" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="tomes">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="tome" minOccurs="1" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="tome">
+    <xsd:complexType>
+      <xsd:attribute name="nbPages" type="xsd:positiveInteger" use="required" />
+      <xsd:attribute name="sousTitre" type="xsd:string" />
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:element name="titre">
+    <xsd:complexType>
+      <xsd:simpleContent>
+        <xsd:extension base="xsd:string">
+          <xsd:attribute name="sousTitre" type="xsd:string" use="optional"/>
+        </xsd:extension>
+      </xsd:simpleContent>
+    </xsd:complexType>
+  </xsd:element>
+
+  <xsd:simpleType name="typeISBN">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d{9}[0-9X]"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:simpleType name="typePages">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d+ à \d+"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

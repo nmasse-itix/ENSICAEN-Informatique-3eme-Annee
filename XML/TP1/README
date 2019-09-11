@@ -1,0 +1,8 @@
+                  XML/TP1 - Liste des fichiers
+
+bergman.xml     : Fichier XML à vérifier et à mettre en forme
+minibergman.xml : Version simplifiée du précédent fichier
+film.css        : La CSS associée aux deux fichiers XML
+film.dtd        : La DTD qui permet de valider les deux fichiers XML
+gen.sh          : Quelques commandes qui nous ont été utiles lors de 
+                  l'écriture de la DTD

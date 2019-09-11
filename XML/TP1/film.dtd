@@ -1,0 +1,30 @@
+<!ELEMENT filmographie (resumes,aliases,perso,roles)>
+<!ELEMENT resumes (resume*)>
+<!ELEMENT resume (#PCDATA|i|liste)*>
+<!ELEMENT aliases (alias*)>
+<!ELEMENT alias (#PCDATA)>
+<!ELEMENT perso (nom,naissance,mort?,biographie,mariages,infos,citations)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT naissance (#PCDATA)>
+<!ELEMENT mort (#PCDATA)>
+<!ELEMENT biographie (p+)>
+<!ELEMENT p (#PCDATA|i|citation)*>
+<!ELEMENT i (#PCDATA|i)*>
+<!ELEMENT mariages (mariage*)>
+<!ELEMENT mariage (#PCDATA)>
+<!ELEMENT infos (info*)>
+<!ELEMENT info (#PCDATA)>
+<!ELEMENT citations (citation*)>
+<!ELEMENT citation (#PCDATA)>
+<!ELEMENT roles (role+)>
+<!ELEMENT role (#PCDATA)>
+<!ELEMENT liste (entree*)>
+<!ELEMENT entree (#PCDATA)>
+<!ATTLIST alias date CDATA #REQUIRED filmref IDREF #REQUIRED pays CDATA #IMPLIED >
+<!ATTLIST citation auteur CDATA #IMPLIED id ID #IMPLIED >
+<!ATTLIST info date CDATA #IMPLIED >
+<!ATTLIST mariage conclusion CDATA #IMPLIED debut CDATA #REQUIRED fin CDATA #IMPLIED >
+<!ATTLIST mort annee CDATA #REQUIRED jour CDATA #REQUIRED lieu CDATA #REQUIRED mois CDATA #REQUIRED >
+<!ATTLIST naissance annee CDATA #REQUIRED jour CDATA #REQUIRED lieu CDATA #REQUIRED mois CDATA #REQUIRED >
+<!ATTLIST resume filmref ID #REQUIRED img CDATA #IMPLIED pdf CDATA #IMPLIED realisateur CDATA #REQUIRED >
+<!ATTLIST role date CDATA #REQUIRED filmref IDREF #REQUIRED misc CDATA #IMPLIED personnage CDATA #REQUIRED >

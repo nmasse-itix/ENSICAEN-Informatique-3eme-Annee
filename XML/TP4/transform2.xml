@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" />
+  <xsl:template match="/">
+    <xsl:text disable-output-escaping="yes">
+      &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+      &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+      &lt;head&gt;
+      &lt;title&gt;Filmographie d'Ingrid Bergman&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+      &lt;table&gt;
+    </xsl:text>
+    <xsl:apply-templates select="//role">
+      <xsl:sort order="ascending" select="./@date"/>
+    </xsl:apply-templates>
+    <xsl:text disable-output-escaping="yes">
+      &lt;/table&gt;
+      &lt;/body&gt;
+      &lt;/html&gt;
+    </xsl:text>
+  </xsl:template>
+  
+
+  <!--
+      replace every role element by a film element
+  -->
+  <xsl:template match="role">
+    <xsl:text disable-output-escaping="yes">
+      &lt;tr&gt;
+      &lt;td&gt;
+    </xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text disable-output-escaping="yes">
+      &lt;/td&gt;
+      &lt;/tr&gt;
+    </xsl:text>
+  </xsl:template>
+
+
+</xsl:stylesheet>

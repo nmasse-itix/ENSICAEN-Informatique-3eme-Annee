@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Declaration of the element "component-list" -->
+  <xsd:element name="component-list">
+    
+    <!-- The components list contains several components -->
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="component" minOccurs="1" maxOccurs="unbounded" />
+      </xsd:sequence>
+    </xsd:complexType>
+
+    <!-- All component's id must be unique ! -->
+    <xsd:key name="component-id">
+      <xsd:selector xpath="component" />
+      <xsd:field xpath="@id" />
+    </xsd:key>
+
+  </xsd:element>
+
+  <!-- Declaration of the element "component" -->
+  <xsd:element name="component">
+    
+    <!-- A component has several pins -->
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="pin" minOccurs="1" maxOccurs="unbounded" />
+      </xsd:sequence>
+      <xsd:attribute name="id" type="xsd:string" />
+    </xsd:complexType>
+    
+    <!-- All pin's id must be unique _within a component_ -->
+    <xsd:key name="pin-id">
+      <xsd:selector xpath="pin" />
+      <xsd:field xpath="@id" />
+    </xsd:key>
+
+  </xsd:element>
+
+  <!-- Declaration of the element "pin" -->
+  <xsd:element name="pin">
+    
+    <!-- A pin is always an empty element -->
+    <xsd:complexType>
+      <xsd:attribute name="id" type="xsd:string" />
+    </xsd:complexType>
+  
+  </xsd:element>
+</xsd:schema>

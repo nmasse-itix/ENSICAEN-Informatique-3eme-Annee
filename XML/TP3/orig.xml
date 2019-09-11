@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<discographie>
+<groupes>
+<groupe id="deep-purple" url="http://www.thehighwaystar.com" img="dp-photo.jpg">Deep Purple <!-- un son d'enfer --></groupe>
+<groupe id="doors" url="http://www.thedoors.com" img="doors-photo.jpg">The Doors <!-- mon groupe fetiche --></groupe>
+<groupe id="iron-butterfly" url="http://starling.rinet.ru/music/iron.htm" img="iron-photo.jpg">Iron Butterfly <!-- ces mecs sont cool ! --></groupe>
+<groupe id="led-zeppelin" url="http://www.ledzeppelin.com" img="lz-photo.jpg">Led Zeppelin</groupe>
+<groupe id="pink-floyd" url="http://ourworld.compuserve.com/homepages/PFArchives/webindex.htm" img="pf-photo.jpg">Pink Floyd <!-- les seuls qui sont toujours là... sexagénaires --></groupe>
+</groupes>
+<musiciens>
+<musicien groupe="deep-purple" id="m1">Ian Gillan<instruments>Voix <!-- et quelle voix ! --></instruments><bio naissance="1945" mort="-"/></musicien>
+<musicien groupe="deep-purple" id="m2">Ian Paice<instruments>Percussion</instruments><bio naissance="1948" mort="-"/></musicien>
+<musicien groupe="deep-purple" id="m3">Ritchie Blackmore<instruments>Guitare</instruments><bio naissance="1945" mort="-"/></musicien>
+<musicien groupe="deep-purple" id="m4">Rod Evans<instruments>Voix</instruments><bio naissance="1947" mort="-"/></musicien>
+<musicien groupe="deep-purple" id="m5">Jon Lord<instruments>Clavier</instruments><bio naissance="1941" mort="-"/></musicien>
+<musicien groupe="deep-purple" id="m6">Nick Simper<instruments>Guitare basse</instruments><bio naissance="1945" mort="-"/></musicien>
+<musicien groupe="doors" id="m1">Jim Morrison<instruments>Voix <!-- et avant tout, poète --></instruments><bio naissance="1943" mort="1971"/></musicien>
+<musicien groupe="doors" id="m2">Ray Manzarek<instruments>Clavier <!-- l'intellectuel du groupe --></instruments><bio naissance="1939" mort="-"/></musicien>
+<musicien groupe="doors" id="m3">Robby Krieger<instruments>Guitare</instruments><bio naissance="1946" mort="-"/></musicien>
+<musicien groupe="doors" id="m4">John Densmore<instruments>Percussion</instruments><bio naissance="1944" mort="-"/></musicien>
+<musicien groupe="iron-butterfly" id="m1">Doug Ingle<instruments>Clavier</instruments><bio naissance="1946" mort="-"/></musicien>
+<musicien groupe="iron-butterfly" id="m2">Lee Dorman<instruments>Guitare basse</instruments><bio naissance="1942" mort="-"/></musicien>
+<musicien groupe="iron-butterfly" id="m3">Ron Bushy<instruments>Percussion</instruments><bio naissance="1945" mort="-"/></musicien>
+<musicien groupe="iron-butterfly" id="m4">Erik Bra[u]nn<instruments>Guitare</instruments><bio naissance="1950" mort="2003"/></musicien>
+<musicien groupe="led-zeppelin" id="m1">John Bonham<instruments>Percussion</instruments><bio naissance="1948" mort="1980"/></musicien>
+<musicien groupe="led-zeppelin" id="m2">John Paul Jones<instruments>Guitare basse</instruments><bio naissance="1946" mort="-"/></musicien>
+<musicien groupe="led-zeppelin" id="m3">Jimmy Page<instruments>Guitare</instruments><bio naissance="1944" mort="-"/></musicien>
+<musicien groupe="led-zeppelin" id="m4">Robert Plant<instruments>Voix</instruments><bio naissance="1948" mort="-"/></musicien>
+<musicien groupe="pink-floyd" id="m1">David Gilmour<instruments>Guitare <!-- la guitare mythique --></instruments><bio naissance="1946" mort="-"/></musicien>
+<musicien groupe="pink-floyd" id="m2">Syd Barrett<instruments>Guitare, voix</instruments><bio naissance="1946" mort="-"/></musicien>
+<musicien groupe="pink-floyd" id="m3">Roger Waters<instruments>Guitare basse, voix</instruments><bio naissance="1943" mort="-"/></musicien>
+<musicien groupe="pink-floyd" id="m4">Richard Wright<instruments>Clavier</instruments><bio naissance="1945" mort="-"/></musicien>
+<musicien groupe="pink-floyd" id="m5">Nick Mason<instruments>Percussion</instruments><bio naissance="1944" mort="-"/></musicien>
+</musiciens>
+<disques>
+<disque groupe="deep-purple" id="d1" annee="1968" img="dp1.jpg">Shades of Deep Purple</disque>
+<disque groupe="deep-purple" id="d2" annee="1968" img="dp2.jpg">The Book of Taliesyn</disque>
+<disque groupe="deep-purple" id="d3" annee="1969" img="dp3.jpg">Deep Purple</disque>
+<disque groupe="deep-purple" id="d4" annee="1969" img="dp11.jpg">Concerto for Group and Orchestra</disque>
+<disque groupe="deep-purple" id="d5" annee="1970" img="dp4.jpg">Deep Purple in Rock</disque>
+<disque groupe="deep-purple" id="d6" annee="1971" img="dp5.jpg">Fireball</disque>
+<disque groupe="deep-purple" id="d7" annee="1972" img="dp6.jpg">Machine Head</disque>
+<disque groupe="deep-purple" id="d8" annee="1973" img="dp7.jpg">Who Do We Think We Are</disque>
+<disque groupe="deep-purple" id="d9" annee="1974" img="dp8.jpg">Burn</disque>
+<disque groupe="deep-purple" id="d10" annee="1974" img="dp9.jpg">Stormbringer</disque>
+<disque groupe="deep-purple" id="d11" annee="1975" img="dp10.jpg">The House of Blue Light</disque>
+<disque groupe="doors" id="d1" annee="1967" img="doors1.jpg">The Doors <!-- contient l'incomparable "The End", utilisé par Kubrick dans "Apocalypse Now" --></disque>
+<disque groupe="doors" id="d2" annee="1967" img="doors2.jpg">Strange Days</disque>
+<disque groupe="doors" id="d3" annee="1968" img="doors3.jpg">Waiting for the Sun</disque>
+<disque groupe="doors" id="d4" annee="1969" img="doors4.jpg">The Soft Parade <!-- le disque le plus médiocre --></disque>
+<disque groupe="doors" id="d5" annee="1970" img="doors5.jpg">Morrison Hotel</disque>
+<disque groupe="doors" id="d6" annee="1971" img="doors6.jpg">L.A. Woman</disque>
+<disque groupe="doors" id="d7" annee="1978" img="doors7.jpg">An American Prayer <!-- Morrison était déjà mort --></disque>
+<disque groupe="iron-butterfly" id="d1" annee="1968" img="iron1.jpg">Heavy</disque>
+<disque groupe="iron-butterfly" id="d2" annee="1968" img="iron2.jpg">In-a-gadda-da-vida</disque>
+<disque groupe="iron-butterfly" id="d3" annee="1969" img="iron3.jpg">Ball</disque>
+<disque groupe="iron-butterfly" id="d4" annee="1970" img="iron4.jpg">Live</disque>
+<disque groupe="iron-butterfly" id="d5" annee="1970" img="iron5.jpg">Metamorphosis</disque>
+<disque groupe="iron-butterfly" id="d6" annee="1975" img="iron6.jpg">Scorching Beauty</disque>
+<disque groupe="iron-butterfly" id="d7" annee="1975" img="iron7.jpg">Sun and Steel</disque>
+<disque groupe="led-zeppelin" id="d1" annee="1969" img="lz1.jpg">Led Zeppelin</disque>
+<disque groupe="led-zeppelin" id="d2" annee="1969" img="lz2.jpg">Led Zeppelin II</disque>
+<disque groupe="led-zeppelin" id="d3" annee="1970" img="lz3.jpg">Led Zeppelin III</disque>
+<disque groupe="led-zeppelin" id="d4" annee="1971" img="lz4.jpg">Led Zeppelin IV</disque>
+<disque groupe="led-zeppelin" id="d5" annee="1973" img="lz5.jpg">Houses of the Holy</disque>
+<disque groupe="led-zeppelin" id="d6" annee="1975" img="lz6.jpg">Physical Graffiti</disque>
+<disque groupe="led-zeppelin" id="d7" annee="1976" img="lz7.jpg">Presence</disque>
+<disque groupe="led-zeppelin" id="d8" annee="1979" img="lz8.jpg">In Through the Out Door</disque>
+<disque groupe="led-zeppelin" id="d9" annee="1982" img="lz9.jpg">Coda</disque>
+<disque groupe="pink-floyd" id="d1" annee="1967" img="pf1.jpg">The Piper at the Gates of Dawn</disque>
+<disque groupe="pink-floyd" id="d2" annee="1968" img="pf2.jpg">A Saucerful of Secrets</disque>
+<disque groupe="pink-floyd" id="d3" annee="1969" img="pf3.jpg">More</disque>
+<disque groupe="pink-floyd" id="d4" annee="1969" img="pf4.jpg">Ummagumma</disque>
+<disque groupe="pink-floyd" id="d5" annee="1970" img="pf5.jpg">Atom Heart Mother</disque>
+<disque groupe="pink-floyd" id="d6" annee="1971" img="pf6.jpg">Meddle</disque>
+<disque groupe="pink-floyd" id="d7" annee="1972" img="pf7.jpg">Obscured by Clouds</disque>
+<disque groupe="pink-floyd" id="d8" annee="1973" img="pf8.jpg">Dark Side of the Moon</disque>
+<disque groupe="pink-floyd" id="d9" annee="1975" img="pf9.jpg">Wish You Were Here <!-- un disque monumental --></disque>
+<disque groupe="pink-floyd" id="d10" annee="1977" img="pf10.jpg">Animals</disque>
+<disque groupe="pink-floyd" id="d11" annee="1979" img="pf11.jpg">The Wall</disque>
+<disque groupe="pink-floyd" id="d12" annee="1983" img="pf12.jpg">The Final Cut</disque>
+<disque groupe="pink-floyd" id="d13" annee="1987" img="pf13.jpg">A Momentary Lapse of Reason</disque>
+<disque groupe="pink-floyd" id="d14" annee="1988" img="pf14.jpg">Delicate Sound of Thunder</disque>
+<disque groupe="pink-floyd" id="d15" annee="1994" img="pf15.jpg">The Division Bell</disque>
+<disque groupe="pink-floyd" id="d16" annee="1995" img="pf16.jpg">P-U-L-S-E</disque>
+</disques>
+</discographie>

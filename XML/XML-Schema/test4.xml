@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<component-list 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="test2.xsd">
+
+  <!-- In this example, two components have a pin with the same id. 
+       This is NOT valid. -->
+
+  <component id="c1">
+    <pin id="c1-vcc" />
+    <pin id="c1-gnd" />
+    <pin id="c1-in-1" />
+    <pin id="c1-in-2" />
+    <pin id="bogus" />
+  </component>
+  
+  <component id="c2">
+    <pin id="c2-vcc" />
+    <pin id="c2-gnd" />
+    <pin id="c2-pin-a" />
+    <pin id="bogus" />
+  </component>
+</component-list>

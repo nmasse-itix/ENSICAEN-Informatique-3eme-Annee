@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE filmographie SYSTEM "./film.dtd">
+<?xml-stylesheet href="./film.css" type="text/css" ?>
+<filmographie>
+   <resumes>
+      <resume filmref="f3" img="03.jpg" pdf="03.pdf" realisateur="Steven Martin">A documentary about the amazing life of Leon Theremin, inventor of the 
+      <i>theremin</i>, the electronic musical instrument so beloved of 50s sci-fi movie music. Theremin amazed America with his instrument until his kidnapping by Soviet agents in the mid-30s. Upon his release from a labor camp, he worked on surveillance devices for the KGB. Almost 60 years later, he is brought back to America for a touching reunion with his friends and colleagues.</resume>
+
+      <resume filmref="f7" img="07.gif" pdf="07.pdf" realisateur="Ingmar Bergman">After having neglected her children for many years, world famous pianist Charlotte visits her daughter Eva in her home. To her surprise she finds her other daughter, Helena, there as well. Helena is mentally impaired, and Eva has taken Helena out of the institution where their mother had placed her. The tension between Charlotte and Eva only builds up slowly, until a nightly conversation releases all the things they have wanted to tell each other.</resume>
+   </resumes>
+
+   <aliases>
+      <alias filmref="f7" date="1978" pays="USA">Autumn Sonata</alias>
+
+      <alias filmref="f7" date="1978" pays="West Germany">Herbstsonate</alias>
+
+      <alias filmref="f7" date="1978" pays="France">Sonate d'automne</alias>
+   </aliases>
+
+   <perso>
+      <nom>Ingrid Bergman</nom>
+
+      <naissance annee="1915" mois="August" jour="29" lieu="Stockholm, Sweden" />
+
+      <mort annee="1982" mois="August" jour="29" lieu="London, England, UK" />
+
+      <biographie>
+         <p>Ingrid Bergman was born in Stockholm, Sweden on August 29, 1915. The actress who would be one of the top draws of Hollywood in the 1940's had decided to become an actress after finishing her formal schooling. She had had a taste of acting when she was 17 when she played an uncredited role of a girl standing in line in the Swedish film 
+         <i>Landskamp</i> (1932) in 1932. Not much of a beginning for a girl who would be known as Her parents had died when she was just a girl and the uncle she lived with didn't want to stand in the way of Ingrid's dream.</p>
+      </biographie>
+
+      <mariages>
+         <mariage debut="1958" fin="1976" conclusion="divorce">Lars Schmidt</mariage>
+
+         <mariage debut="1950" fin="1957" conclusion="divorce">Roberto Rossellini</mariage>
+
+         <mariage debut="1937" fin="1950" conclusion="divorce">Dr. Petter Lindström</mariage>
+      </mariages>
+
+      <infos>
+         <info>Mother of Isabella Rossellini, Isotta Rossellini and Pia Lindström.</info>
+
+         <info>In 1933 she enrolled in the Royal Theatre of Dramatic Art but later changed to films instead.</info>
+      </infos>
+
+      <citations>
+         <citation id="c1" auteur="Herself">The best way to keep young is to keep going in whatever it is that keeps you going. With me that's work, and a lot of it. And when a job is finished, relax and have fun.</citation>
+
+         <citation id="c2" auteur="Herself">I've gone from saint to whore and back to saint again, all in one lifetime.</citation>
+      </citations>
+   </perso>
+
+   <roles>
+      <role filmref="f3" personnage="Actress in 'Spellbound' Clip" date="1993" misc="(uncredited)">Theremin: An Electronic Odyssey</role>
+
+      <role filmref="f7" personnage="Charlotte" date="1978">Höstsonaten</role>
+   </roles>
+</filmographie>
+

@@ -1,0 +1,21 @@
+<!ELEMENT bibliographie (livre|article)*>
+<!ELEMENT livre (titre,auteur+,tomes?,infosEdition,avis?)>
+<!ELEMENT article (titre,auteur+,infosPublication,avis?)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+<!ELEMENT tomes (tome*)>
+<!ELEMENT tome EMPTY>
+<!ELEMENT infosEdition (editeur,lieuEdition,lieuImpression,ISBN)>
+<!ELEMENT editeur (#PCDATA)>
+<!ELEMENT lieuEdition (#PCDATA)>
+<!ELEMENT lieuImpression (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT infosPublication (pages,anneePublication,numeroJournal)>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT anneePublication (#PCDATA)>
+<!ELEMENT numeroJournal (#PCDATA)>
+<!ELEMENT avis (#PCDATA)>
+<!ATTLIST infosPublication nomJournal CDATA "Feuille de Chou">
+<!ATTLIST titre sousTitre CDATA #IMPLIED>
+<!ATTLIST tome nbPages CDATA #REQUIRED sousTitre CDATA #IMPLIED>
+

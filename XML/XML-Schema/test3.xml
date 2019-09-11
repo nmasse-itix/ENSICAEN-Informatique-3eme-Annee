@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<component-list 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="test2.xsd">
+
+  <!-- In this example all the pin's id are unique. This is valid. -->
+
+  <component id="c1">
+    <pin id="c1-vcc" />
+    <pin id="c1-gnd" />
+    <pin id="c1-in-1" />
+    <pin id="c1-in-2" />
+    <pin id="c1-out-1" />
+  </component>
+  
+  <component id="c2">
+    <pin id="c2-vcc" />
+    <pin id="c2-gnd" />
+    <pin id="c2-pin-a" />
+    <pin id="c2-pin-b" />
+  </component>
+</component-list>

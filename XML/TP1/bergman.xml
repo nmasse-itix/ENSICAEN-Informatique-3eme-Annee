@@ -1,0 +1,509 @@
+<?xml version="1.0"?>
+<!DOCTYPE filmographie SYSTEM "./film.dtd">
+<?xml-stylesheet href="./film.css" type="text/css" ?>
+<filmographie>
+   <resumes>
+      <resume filmref="f1" realisateur="Vassili Silovic">[Documentaire]</resume>
+
+      <resume filmref="f2" realisateur="Chuck Workman">[Documentaire]</resume>
+
+      <resume filmref="f3" img="03.jpg" pdf="03.pdf" realisateur="Steven Martin">A documentary about the amazing life of Leon Theremin, inventor of the theremin, the electronic musical instrument so beloved of 50s sci-fi movie music. Theremin amazed America with his instrument until his kidnapping by Soviet agents in the mid-30s. Upon his release from a labor camp, he worked on surveillance devices for the KGB. Almost 60 years later, he is brought back to America for a touching reunion with his friends and colleagues.</resume>
+
+      <resume filmref="f4" realisateur="Gene Feldman">[Documentaire]</resume>
+
+      <resume filmref="f5" img="05.jpg" pdf="05.pdf" realisateur="Alan Gibson" />
+
+      <resume filmref="f6" realisateur="Marty Pasetta">[Documentaire]</resume>
+
+      <resume filmref="f7" img="07.gif" pdf="07.pdf" realisateur="Ingmar Bergman">After having neglected her children for many years, world famous pianist Charlotte visits her daughter Eva in her home. To her surprise she finds her other daughter, Helena, there as well. Helena is mentally impaired, and Eva has taken Helena out of the institution where their mother had placed her. The tension between Charlotte and Eva only builds up slowly, until a nightly conversation releases all the things they have wanted to tell each other.</resume>
+
+      <resume filmref="f8" img="08.jpg" pdf="08.pdf" realisateur="Vincente Minnelli" />
+
+      <resume filmref="f9" realisateur="?">[Documentaire]</resume>
+
+      <resume filmref="f10" img="10.jpg" pdf="10.pdf" realisateur="Sidney Lumet">After solving a case, Hercule Poirot takes the Orient Express home. On board is Ratchett, a millionaire and his secretary Hector MacQueen and butler Beddoes. Also there is a Count and Countess, a Colonel, a bossy American woman, an Italian, a Princess and her nurse and Pierre, the conductor. The train gets stuck in the snow and during the night, Ratchett is murdered, stabbed many times. Poirot and Bianchi (the train's detective and friend) investigate and discover that Ratchett and the rest of the passengers are involved in the Daisy Armstrong case in which a child was taken for ransom and then horribly killed...</resume>
+
+      <resume filmref="f11" img="11.jpg" pdf="11.pdf" realisateur="Fielder Cook">Precocious Claudia and her brother run away from home and hide in the Metropolitan Museum in New York.</resume>
+
+      <resume filmref="f12" realisateur="Roberto Guerra, Elia Hershon">Documentary about French (Turkish born) film historian Henri Langlois (1914-1977), co-founder of the Cinemathèque Française, which progressed from just 10 films in 1936 to 60,000 films in the early 70s. The film also deals with the manifestations of support for Langlois following 1968 French Minister of Culture André Malraux's failed attempt to replace him as head of the Cinemathèque.</resume>
+
+      <resume filmref="f13" img="13.jpg" pdf="13.pdf" realisateur="Guy Green">The Merediths move to an isolated farm. Mrs. Meredith and the neighbour Will Cade become friends and eventually lovers.</resume>
+
+      <resume filmref="f14" realisateur="Marshall Flaum">[Documentaire]</resume>
+
+      <resume filmref="f15" img="15.jpg" pdf="15.pdf" realisateur="Gene Saks">Toni Simmons believes that the only reason her married lover won't leave his wife is because of the children. In truth, her lover, dentist Julian Winston, doesn't have any children. In fact, Julian doesn't even have a wife - he just tells women he does to avoid getting involved. When Julian does decide to take the plunge with Toni she insists on meeting the first wife and Julian enlists the aid of his long-time nurse/receptionist Stephanie Dickinson to play the part.</resume>
+
+      <resume filmref="f16" img="16.jpg" pdf="16.pdf" realisateur="Ted Kotcheff" />
+
+      <resume filmref="f17" realisateur="Hand Abramson, Hans Alfredson" />
+
+      <resume filmref="f18" img="18.jpg" pdf="18.pdf" realisateur="Saul Turell">This insightful documentary features some of the major and most beautiful actresses to grace the silver screen. It shows how the movie industry changed it's depiction of sex and actresses portrayal of sex from the silent movie era to the present. Classic scenes are shown from the silent movie, True Heart Susie, starring Lillian Gish, to Love Me Tonight (1932), blending sex and sophistication, starring Jeanette MacDonald (pre-Nelson Eddy) and to Elizabeth Taylor in, A Place in the Sun (1951), plus much , much more.</resume>
+
+      <resume filmref="f19" img="19.jpg" pdf="19.pdf" realisateur="Anthony Asquith">Three stories about the lives and loves of those who own a certain yellow Rolls-Royce: 
+      <liste>
+         <entree>First purchased by the Marquess of Frinton for his wife as a belated anniversary present, the Marchiness finds her own use for the vehicle - one which prompts her husband to sell the car in disgust.</entree>
+
+         <entree>Gangster Paolo Maltese's moll, Mae, thinks the Rolls is a classy car in which to tour Paolo's home town in Italy. When Paolo is called away to the States to finish some business, a bored Mae takes the Rolls on a spin through the country, enjoying both the sights and the handsome Italian photographer who crosses her path.</entree>
+
+         <entree>By the outbreak of World War II, the car has come into the possession of socialite Gerda Millet. While on her way to visit Yugoslavian royalty, Gerda and the Rolls become (at first) unwitting and then (eventually) most willing participants in the Yugoslavian fight.</entree>
+      </liste>
+      </resume>
+
+      <resume filmref="f20" realisateur="Bernhard Wicki">Carla Zachanassian had a child by Serge Miller as a teenager. When Serge refused to marry her, she was driven out of town. By her own wit and cunning, she has returned as a multi-millionaire for a visit. The town lays out the red carpet expecting big things from Carla, only to learn that her sole purpose is to see Serge Miller killed...</resume>
+
+      <resume filmref="f21" realisateur="Alex Segal" />
+
+      <resume filmref="f22" realisateur="Pierre Chevalier" />
+
+      <resume filmref="f23" img="23.jpg" pdf="23.pdf" realisateur="Anatole Litvak">In this adaptation of Francoise Sagan's best selling novel, Paula is a beautiful, 40-year old, highly successful businesswoman. She is deeply in love with Roger, her mature consort of five years. Roger is a very charming gallant who loves Paula but is too selfish to give up his freedom to be promiscuous. When Paula meets Phillip, the 24-year old, immature, lawyer son of one of her rich clients, he falls hopelessly in love with the glamorous, sympathetic older woman and insists that the age difference will be no barrier to a romance. Paula resists the young man's persistent advances, but finally succumbs when Roger initiates yet another affair with one of his young Maisies. An affair begins, and society does not approve.</resume>
+
+      <resume filmref="f24" img="24.jpg" pdf="24.pdf" realisateur="Silvio Narizzano" />
+
+      <resume filmref="f25" realisateur="John Frankenheimer" />
+
+      <resume filmref="f26" img="26.jpg" pdf="26.pdf" realisateur="Mark Robson">All her life Englishwoman Gladys Aylward knew that China was the place where she belonged. Not qualified to be sent there as a missionary, Gladys works as a domestic to earn the money to send herself to a poor, remote village. There she eventually lives a full and happy life: running the inn, acting as foot inspector, advising the local Mandarin and even winning the heart of mixed race Captain Lin Nan. But Gladys discovers her real destiny when the country is invaded by Japan and the Chinese children need her to save their lives. Based on a true story.</resume>
+
+      <resume filmref="f27" img="27.jpg" pdf="27.pdf" realisateur="Stanley Donen">Anna Kaplan is a accomplished actress who has given up hope at finding the man of her dreams. She is in the middle of taking off her face cream (one of the best scenes), while talking about this subject with her sister, when in walks Philip Adams. She loses her concentration for a moment as she realizes that this is the charming, smart, and handsome man she has been waiting for. The plot thickens as they begin a love at first sight relationship and she finds out that he has been keeping a secret from her. When she learns of his lie, she becomes furious and works out a plan for revenge.</resume>
+
+      <resume filmref="f28" img="28.jpg" pdf="28.pdf" realisateur="Anatole Litvak">Russian exiles in Paris plot to collect ten million pounds from the Bank of England by grooming a destitute, suicidal girl to pose as heir to the Russian throne. While Bounin is coaching her he comes to believe she is really Anastasia. In the end the Empress must decide her claim.</resume>
+
+      <resume filmref="f29" img="29.jpg" pdf="29.pdf" realisateur="Jean Renoir">Polnish countess Elena falls in love to a Frensh radical party's candidate, a general, in pre world war I Paris, but another officer pines for her.</resume>
+
+      <resume filmref="f30" realisateur="Roberto Rossellini" />
+
+      <resume filmref="f31" realisateur="Roberto Rossellini" />
+
+      <resume filmref="f32" realisateur="Gianni Franciolini, Alfredo Guarini">Five portraits of actresses in their common life, seen as women rather than movie stars.</resume>
+
+      <resume filmref="f33" img="33.jpg" pdf="33.pdf" realisateur="Roberto Rossellini">Catherine and Alexander, wealthy and sophisticated, drive to Naples to dispose of a deceased uncle's villa. There's a coolness in their relationship and aspects of Naples add to the strain. She remembers a poet who loved her and died in the war; although she didn't love him, the memory underscores romance's absence from her life now. She tours the museums of Naples and Pompeii, immersing herself in the Neapolitan fascination with the dead and noticing how many women are pregnant; he idles on Capri, flirting with women but drawing back from adultery. With her, he's sarcastic; with him, she's critical. They talk of divorce. Will this foreign couple find insight and direction in Italy?</resume>
+
+      <resume filmref="f34" realisateur="Roberto Rossellini" />
+
+      <resume filmref="f35" img="35.jpg" pdf="35.pdf" realisateur="Roberto Rossellini">Karen, a young woman from the baltic countries, marries fisherman Antonio to escape from a prisoners camp. But the life in Antonio's village, Stromboli, threatened by the vulcano, is a tough one and Karen can not get used to it.</resume>
+
+      <resume filmref="f36" img="36.jpg" pdf="36.pdf" realisateur="Alfred Hitchcock">In 1831, Irishman Charles Adare travels to Australia to start a new life with the help of his cousin who has just been appointed governor. When he arrives he meets powerful landowner and ex-convict Sam Flusky, who wants to do a business deal with him. Whilst attending a dinner party at Flusky's house, Charles meets Flusky's wife Henrietta who he had known as a child back in Ireland. Henrietta is an alcoholic and seems to be on the verge of madness.</resume>
+
+      <resume filmref="f37" img="37.jpg" pdf="37.pdf" realisateur="Victor Fleming" />
+
+      <resume filmref="f38" img="38.jpg" pdf="38.pdf" realisateur="Lewis Milestone">In winter of 1938, Paris is crowded with refugees from the Nazis, who live in the black shadows of night, trying to evade deportation. One such is Dr. Ravic, who practices medicine illegally and stalks his old Nazi enemy Haake with murder in mind. One rainy night, Ravic meets Joan Madou, a kept woman cast adrift by her lover's sudden death. Against Ravic's better judgement, they become involved in a doomed affair; matters come to a crisis on the day war is declared.</resume>
+
+      <resume filmref="f39" img="39.jpg" pdf="39.pdf" realisateur="Alfred Hitchcock">Alicia Huberman is a frivolous girl who loves drinks and men; her father was a German spy in USA and he has committed suicide in prison. Government agent Devlin asks the girl to spy on a group of her father's Nazi friends in Rio de Janeiro; this could be her chance to clean her guilty name. The girl falls in love with the agent, but he seems not to be attracted by the life she is living. Alicia accepts the duty and she goes to Brazil with Devlin. The agent suggests Alicia should marry the spy and gain free access into his house, so she does. During a party, Alicia and Devlin find some uranium dust hidden in Sebastian's canteen, but now he has discovered Alicia is a spy and he starts poisoning her day after day.</resume>
+
+      <resume filmref="f40" img="40.jpg" pdf="40.pdf" realisateur="Sam Wood">On the death of her mother, the vivacious Clio Dulaine returns from Paris to her childhood home in New Orleans to seek revenge for the humiliation her mother suffered there from her father's wife's family. She also plans to marry a rich man to attain the status and respectability her mother never had, but falls for Texas gambler Clint Maroon instead. When he leaves New Orleans for the horse racing season at Saratoga Springs, she follows him there to seek her fortune --- or someone else's.</resume>
+
+      <resume filmref="f41" img="41.jpg" pdf="41.pdf" realisateur="Leo McCarey">Father O'Malley the unconventional priest from 'Going My Way' continues his work for the Catholic Church. This time he is sent to St. Mary's, a run-down parochial school on the verge of condemnation. He and Sister Benedict work together in an attempt to save the school, though their differing methods often lead to good-natured disagreements.</resume>
+
+      <resume filmref="f42" img="42.jpg" pdf="42.pdf" realisateur="Alfred Hitchcock">The head of the Green Manors mental asylum Dr. Murchison is retiring to be replaced by Dr. Edwards, a famous psychiatrist. Edwards arrives and is immediately attracted to the beautiful but cold Dr. Constance Petersen. However, it soon becomes apparent that Dr. Edwards is in fact a paranoid amnesiac imposter. He goes on the run with Constance who tries to help his condition and solve the mystery of what happened to the real Dr. Edwards.</resume>
+
+      <resume filmref="f43" img="43.jpg" pdf="43.pdf" realisateur="George Cukor">Paula's aunt Alice Alquist, a famous entertainer, is murdered in her home. Paula, who lives with her aunt finds the body. Police fail to find the killer and Paula is sent away to school. Ten years later, Paula returns to London with her new husband. They take up residence in her aunt's house, which she has inherited. Paula is increasingly isolated by her husband but does come to the attention of an admirerer of her aunt, Mr. Brian Cameron.</resume>
+
+      <resume filmref="f44" realisateur="?">[Documentaire]</resume>
+
+      <resume filmref="f45" img="45.jpg" pdf="45.pdf" realisateur="Sam Wood">Spain in the 1930s is the place to be for a man of action like Robert Jordan. There is a civil war going on and Jordan who has joined up on the side that appeals most to idealists of that era --- like Ernest Hemingway and his friends --- has been given a high-risk assignment up in the mountains. He awaits the right time to blow up a bridge in a cave. Pilar, who is in charge there, has an ability to foretell the future. And so that night she encourages Maria, a young girl ravaged by enemy soldiers, to join Jordan who has decided to spend the night under the stars.</resume>
+
+      <resume filmref="f46" img="46.jpg" pdf="46.pdf" realisateur="Michael Curtiz">In World War II Casablanca, Rick Blaine, exiled American and former freedom fighter, runs the most popular nightspot in town. The cynical lone wolf Blaine comes into the possession of two valuable letters of transit. When Nazi Major Strasser arrives in Casablanca, the sycophantic police Captain Renault does what he can to please him, including detaining Czech underground leader Victor Laszlo. Much to Rick's surprise, Lazslo arrives with Ilsa, Rick's one time love. Rick is very bitter towards Ilsa, who ran out on him in Paris, but when he learns she had good reason to, they plan to run off together again using the letters of transit. Well, that was their original plan...</resume>
+
+      <resume filmref="f47" img="47.jpg" pdf="47.pdf" realisateur="Gregory Ratoff">Emilie has been hired to care for the four sons of wealthy Adam Stoppard and his wife, Molly. After Molly dies, Adam and the boys grow to depend on Emilie even more. At the same time, Emilie falls in love with Adam. The boys grow up, but Adam insists that Emilie stay on as part of the family. Her relationships with both the boys and Adam become strained after one son marries a gold-digging viper named Hester.</resume>
+
+      <resume filmref="f48" img="48.jpg" pdf="48.pdf" realisateur="Victor Fleming">Dr. Jekyll believes good and evil exist in everyone. Experiments reveal his evil side, named Hyde. Experience teaches him how evil Hyde can be: he kills Ivy who earlier expressed interest in Jekyll and Sir Charles, Jekyll's faincee's father.</resume>
+
+      <resume filmref="f49" realisateur="W.S. Van Dyke">Old friends Ward and Phillip both become smitten with Phillip's mother's attractive young secretary Stella. But Stella marries Phillip and stands by him as his behavior becomes more and more erratic and his jealousy of Ward increases.</resume>
+
+      <resume filmref="f50" img="50.jpg" pdf="50.pdf" realisateur="Per Lindberg">Young Karin Nordbäck lives in a small town. She has a relationship with a sailor, but when she tries to leave him, he shoots her. She survives and begins a new life in Stockholm. There she meets kind people and new friends but the newspapers find her and start to write about her.</resume>
+
+      <resume filmref="f51" img="51.jpg" pdf="51.pdf" realisateur="Gregory Ratoff">A concert violinist becomes charmed with his daughter's talented piano teacher. When he invites her to go on tour with him, they make beautiful music away from the concert hall as well. He soon leaves his wife so the two can go off to Italy together.</resume>
+
+      <resume filmref="f52" img="52.jpg" pdf="52.pdf" realisateur="Gustav Molander">Funfair worker Valdemar is without his knowledge the illegitimate son of a rich landowner, colonel von Brede. The colonel knows and employs Valdemar as his stable master. The colonel has a young and beautiful ward, Eva, but will she and Valdemar fall in love with each other?</resume>
+
+      <resume filmref="f53" img="53.jpg" pdf="53.pdf" realisateur="Gustav Molander">When she was a child, Anna Holm, burned her face. This destroyed her looks, and she has become a mean and bitter woman. She and her 'friends' are black-mailers. One of the victims pay her by letting a plastic surgeon, doctor Wegert, make her beautiful again. Anna becomes a new person and leaves the others. She becomes a governess for a young boy, who will inherit a fortune. The boy has an evil uncle, who wants to see the boy dead, so that he will inherit the fortune. He hires Anna's former colleagues as assassins.</resume>
+
+      <resume filmref="f54" realisateur="Carl Frölich" />
+
+      <resume filmref="f55" realisateur="Gustav Molander">Ludvig and Sussi Battwyhl, Louis and Katja Brenner and Julia and Kurt Balzar are upper class millionaires. They don't seem to do any real work but still need a vacation in the mountains. Everybody seems to be romantically involved with everybody. A rich American woman joins them.</resume>
+
+      <resume filmref="f56" img="56.jpg" pdf="56.pdf" realisateur="Gustav Molander">The world famous violinist Holger Brandt comes back to his family after a tour. He and his wife have been married for many years, but their love has faded. Their young daughter gets a new piano teacher, Anita Hoffman. Mr. Brandt fall in love with her and together they go on a world tour. But he soon discovers that the feelings for his wife that he thought were dead return.</resume>
+
+      <resume filmref="f57" realisateur="Gustav Molander">Eva Bergh works as a bank clerk, but dreams of becoming an artist. At a party she meets the rich Harald Ribe and he instantly falls in love with her. When he proposes to marry her she has no work or place to live and she accepts. At Harald's estate she can live comfortably, but she misses her old friends.</resume>
+
+      <resume filmref="f58" realisateur="Gustav Edgren">Lena Bergstroem works in an office and is unhappily in love with her boss, Johan Borg. She decides to quit. Borg's wife won't have any children, and when she becomes pregnant she has an illegal abortion. For some reason, Lena's father believes that it is Lena who has had an abortion.</resume>
+
+      <resume filmref="f59" img="59.jpg" pdf="59.pdf" realisateur="Gustav Molander">The Swedenhielm's is an old aristocratic family. The head of the family is professor Rolf Swedenhielm. His three children Bo, Julia and Rolf jr also live in the house. They also have an excellent house maid, Boman. Because of the family's extravagance, they are heading for bankruptcy. But perhaps their problems would be solved if Rolf was awarded the Nobel Prize?</resume>
+
+      <resume filmref="f60" realisateur="Ivar Johansson">Daniel has been forced by his father to become a priest. After graduating, he comes to a parish in Haelsingland. During one stormy night, he seduces a young girl, Karin, and rapes her. Filled with regret, he runs out into the dark night and is struck by lightning. He loses his memory and is taken to a distant hospital to recover. Meanwhile Karin gets pregnant and has a child. Eventually Daniel comes back and when he meets Karin his memory returns.</resume>
+
+      <resume filmref="f61" img="61.jpg" pdf="61.pdf" realisateur="Edvin Adolphson">In one of the narrow streets of the Old town of Stockholm lies hotel City. It's filled by mysterious characters such as 'Greven', 'Blomman' and others. The police inspector Goeransson is chasing a jewel thief, 'Diamant-Lasse'.</resume>
+
+      <resume filmref="f62" realisateur="Gunnar Skoglund" />
+   </resumes>
+
+   <aliases>
+      <alias filmref="f1" date="1996" pays="UK: TV title">Lost Films of Orson Welles, The</alias>
+
+      <alias filmref="f6" date="1979" pays="TV">7th American Film Institute Life Achievement Award: A Salute to Alfred Hitchcock, The</alias>
+
+      <alias filmref="f7" date="1978" pays="USA">Autumn Sonata</alias>
+
+      <alias filmref="f7" date="1978" pays="West Germany">Herbstsonate</alias>
+
+      <alias filmref="f7" date="1978" pays="France">Sonate d'automne</alias>
+
+      <alias filmref="f8" date="1976" pays="Italy">Nina</alias>
+
+      <alias filmref="f9" date="1975" pays="TV">3rd American Film Institute Life Achievement Award: A Salute to Orson Welles</alias>
+
+      <alias filmref="f11" date="1973" pays="UK">Hideaways, The</alias>
+
+      <alias filmref="f12" date="1970">Langlois</alias>
+
+      <alias filmref="f18" date="1965">Love Goddesses: A History of Sex in the Cinema, The</alias>
+
+      <alias filmref="f20" date="1964" pays="West Germany">Besuch, Der</alias>
+
+      <alias filmref="f20" date="1964" pays="France">Rancune, La</alias>
+
+      <alias filmref="f20" date="1964" pays="Italy">Vendetta della signora, La</alias>
+
+      <alias filmref="f22" date="1961" pays="International: English title">Kolka, My Friend</alias>
+
+      <alias filmref="f23" date="1961" pays="France">Aimez-vous Brahms?</alias>
+
+      <alias filmref="f29" date="1956">Elena and Her Men</alias>
+
+      <alias filmref="f29" date="1956" pays="Italy">Eliana e gli uomini</alias>
+
+      <alias filmref="f29" date="1956" pays="UK">Paris Does Strange Things</alias>
+
+      <alias filmref="f30" date="1954">Joan at the Stake</alias>
+
+      <alias filmref="f30" date="1954">Joan of Arc at the Stake</alias>
+
+      <alias filmref="f31" date="1954" pays="West Germany">Angst</alias>
+
+      <alias filmref="f31" date="1956" pays="USA">Fear</alias>
+
+      <alias filmref="f31" date="1955" pays="Italy">Incubo</alias>
+
+      <alias filmref="f31" date="1955" pays="Italy">Non credo più all'amore</alias>
+
+      <alias filmref="f32" date="1958" pays="USA">Of Life and Love</alias>
+
+      <alias filmref="f32" date="1958" pays="USA">We, the Women</alias>
+
+      <alias filmref="f33" date="1953" pays="France">Amour est le plus fort, L'</alias>
+
+      <alias filmref="f33" date="1955" pays="USA">Journey to Italy</alias>
+
+      <alias filmref="f33" date="1953" pays="UK">Lonely Woman, The</alias>
+
+      <alias filmref="f33" date="1955" pays="USA">Strangers</alias>
+
+      <alias filmref="f33" date="1953" pays="France">Voyage en Italie</alias>
+
+      <alias filmref="f33" date="1953">Voyage in Italy</alias>
+
+      <alias filmref="f33" date="1953">Voyage to Italy</alias>
+
+      <alias filmref="f34" date="1954" pays="USA">Greatest Love, The</alias>
+
+      <alias filmref="f34" date="1951" pays="UK">No Greater Love</alias>
+
+      <alias filmref="f35" date="1949" pays="Italy">Stromboli, terra di Dio</alias>
+
+      <alias filmref="f39" date="1946">Alfred Hitchcock's Notorious</alias>
+
+      <alias filmref="f42" date="1945" pays="USA: promotional title">Alfred Hitchcock's Spellbound</alias>
+
+      <alias filmref="f43" date="1944" pays="UK">Murder in Thornton Square</alias>
+
+      <alias filmref="f44" date="1943" pays="UK">Ingrid Bergman Answers</alias>
+
+      <alias filmref="f47" date="1941" pays="USA">Legacy</alias>
+
+      <alias filmref="f50" date="1940">June Night</alias>
+
+      <alias filmref="f50" date="1940">Night in June, A</alias>
+
+      <alias filmref="f51" date="1939" pays="UK">Escape to Happiness</alias>
+
+      <alias filmref="f51" date="1939" pays="USA: promotional title">Intermezzo: A Love Story</alias>
+
+      <alias filmref="f52" date="1939">One Single Night</alias>
+
+      <alias filmref="f52" date="1939">Only One Night</alias>
+
+      <alias filmref="f53" date="1939" pays="UK">Woman's Face, A</alias>
+
+      <alias filmref="f54" date="1938">Four Companions, The</alias>
+
+      <alias filmref="f56" date="1936">Interlude</alias>
+
+      <alias filmref="f56" date="1936" pays="USA">Intermezzo</alias>
+
+      <alias filmref="f57" date="1936">On the Sunny Side</alias>
+
+      <alias filmref="f58" date="1935" pays="USA">Walpurgis Night</alias>
+
+      <alias filmref="f59" date="1935" pays="USA">Swedenhielms Family</alias>
+
+      <alias filmref="f60" date="1935">Ocean Breakers</alias>
+
+      <alias filmref="f60" date="1949" pays="USA">Surf, The</alias>
+
+      <alias filmref="f61" date="1935">Count of the Old Monk's Bridge, The</alias>
+
+      <alias filmref="f61" date="1935">Count of the Old Town, The</alias>
+   </aliases>
+
+   <perso>
+      <nom>Ingrid Bergman</nom>
+
+      <naissance annee="1915" mois="August" jour="29" lieu="Stockholm, Sweden" />
+
+      <mort annee="1982" mois="August" jour="29" lieu="London, England, UK" />
+
+      <biographie>
+         <p>Ingrid Bergman was born in Stockholm, Sweden on August 29, 1915. The actress who would be one of the top draws of Hollywood in the 1940's had decided to become an actress after finishing her formal schooling. She had had a taste of acting when she was 17 when she played an uncredited role of a girl standing in line in the Swedish film 
+         <i>Landskamp</i>
+
+         (1932) in 1932. Not much of a beginning for a girl who would be known as 
+         <citation>Sweden's illustrious gift to Hollywood.</citation>
+
+         Her parents had died when she was just a girl and the uncle she lived with didn't want to stand in the way of Ingrid's dream.</p>
+
+         <p>The next year she enrolled in the Swedish Royal Theatre but decided that stage acting was not for her. It would be three more years before she would have another chance at a film. When she did, it was more than just a bit part. The film in question was 
+         <i>Munkbrogreven</i>
+
+         (1935) in 1935 where she had a speaking part as Elsa Edlund. After several films that year which would establish her as a class actress, Ingrid appeared in 1936's 
+         <i>Intermezzo</i>
+
+         (1936/I) as Anita Hoffman.</p>
+
+         <p>Lucky for her, movie mogul David O. Selzick saw it and sent a representative from MGM to gain rights to the story and have the beautiful Miss Bergman signed to a contract. Once signed, Ingrid came to California and starred in the remake of 
+         <i>Intermezzo</i>
+
+         (1939) in 1939 reprising her original role. The film was a hit and so was Ingrid. Her beauty was unlike anything the movie industry had seen before and her acting was superb. Hollywood was about to find out that they had the most versatile actress the industry had ever seen. Here was a woman who truly cared about the craft she represented. The public fell in love with her.</p>
+
+         <p>Ingrid was under contract to go back to Sweden to film 
+         <i>En enda natt</i>
+
+         (1939) in 1939 and 
+         <i>Juninatten</i>
+
+         (1940) in 1940. Back in the US, Ingrid appeared in three films with all being well-received. She made only one film in 1942 opposite the great Humphrey Bogart in the now classic 
+         <i>Casablanca</i>
+
+         (1942). Ingrid was choosing her roles well. In 1943 she was nominated for an Academy Award for her role in 
+         <i>For Whom the Bell Tolls</i>
+
+         (1943), the only film she made that year. The critics and movie public didn't forget her when she made 
+         <i>Gaslight</i>
+
+         (1944) the following year. For her role of Paula Alquist she won the Oscar for Best Actress.</p>
+
+         <p>In 1945, Ingrid played in 
+         <i>Spellbound</i>
+
+         (1945), 
+         <i>Saratoga Trunk</i>
+
+         (1945), and 
+         <i>Bells of St. Mary's, The</i>
+
+         (1945). Once again she received her third Oscar nomination for her role of Sister Benedict. With no appearances in 1947, she bounced back with her fourth nomination in 
+         <i>Joan of Arc</i>
+
+         .</p>
+
+         <p>In 1949, Ingrid went ot Italy to film 
+         <i>Stromboli</i>
+
+         (1949) which was directed by Roberto Rossellini. She fell in love with him and left her husband, Dr. Peter Lindstrom and daughter Pia. The public was indignant and the Hollywood set appalled. She was pregnant and decided to remain in Italy where she bore a son. In 1952, Ingrid had twins Isotta and Isabella, who is an outstanding actress in her own right as is Pia.</p>
+
+         <p>She continued to make films in Italy and finally returned to the Hollywood scene in 1956 in the title role in 
+         <i>Anastasia</i>
+
+         (1956) which was filmed in England. For this she won her second Academy Award. She had scarcely missed a beat. Ingrid continued to bounce between Europe and the US making movies, and fine ones at that. A film with Ingrid Bergman was sure to be a quality production.</p>
+
+         <p>In her final big screen performance in 1978's 
+         <i>Höstsonaten</i>
+
+         (1978) she had her final Academy Award nomination. Though she didn't win, it was felt she had made the most sterling performance for her entire career. Ingrid retired but not before she gave an outstanding TV performance in the mini-series 
+         <i>Woman Called Golda, A</i>
+
+         (1982) (TV), a film about the Israeli prime minister, Golda Meir. For this she won an Emmy Award as Best Actress, but, unfortunately, she didn't live to see the fruits of her labor. Ingrid had died on her birthday, from cancer, on August 29, 1982 in London, England. She was 67.</p>
+      </biographie>
+
+      <mariages>
+         <mariage debut="1958" fin="1976" conclusion="divorce">Lars Schmidt</mariage>
+
+         <mariage debut="1950" fin="1957" conclusion="divorce">Roberto Rossellini</mariage>
+
+         <mariage debut="1937" fin="1950" conclusion="divorce">Dr. Petter Lindström</mariage>
+      </mariages>
+
+      <infos>
+         <info>Mother of Isabella Rossellini, Isotta Rossellini and Pia Lindström.</info>
+
+         <info>In 1933 she enrolled in the Royal Theatre of Dramatic Art but later changed to films instead.</info>
+
+         <info>Married Lars Schmidt in Caxton Hall next to Westminster Abbey, London, UK.</info>
+
+         <info>Folksinger Woody Guthrie wrote a song in praise of her, titled "Ingrid Bergman, " but died before he had a chance to record it. The song can now be heard on Billy Bragg's "Mermaid Avenue" CD.</info>
+
+         <info>Ashes scattered at sea off the coast of Sweden.</info>
+
+         <info date="1995">Chosen by Empire magazine as one of the 100 Sexiest Stars in film history (#30).</info>
+      </infos>
+
+      <citations>
+         <citation id="c1" auteur="Herself">The best way to keep young is to keep going in whatever it is that keeps you going. With me that's work, and a lot of it. And when a job is finished, relax and have fun.</citation>
+
+         <citation id="c2" auteur="Herself">I've gone from saint to whore and back to saint again, all in one lifetime.</citation>
+
+         <citation id="c3" auteur="David O. Selznick">The minute I looked at her, I knew I had something. She had an extraordinary quality of purity and nobility and a definite star personality that is very rare.</citation>
+
+         <citation id="c4" auteur="Herself">People didn't expect me to have emotion like other women.</citation>
+
+         <citation id="c5" auteur="Herself">I've never sought success in order to get fame and money; it's the talent and the passion that count in success.</citation>
+
+         <citation id="c6" auteur="Herself">I remember one day sitting at the pool and suddenly the tears were streaming down my cheeks. Why was I so unhappy? I had success. I had security. But it wasn't enough. I was exploding inside.</citation>
+
+         <citation id="c7" auteur="Herself">I have no regrets. I wouldn't have lived my life the way I did if I was going to worry about what people were going to say.</citation>
+
+         <citation id="c8" auteur="Humphrey Bogart">If a face like Ingrid Bergman's looks at you as though you're adorable, everybody does. You don't have to act very much.</citation>
+
+         <citation id="c9" auteur="Herself">Until 45 I can play a woman in love. After 55 I can play grandmothers. But between those ten years, it is difficult for an actress.</citation>
+
+         <citation id="c10" auteur="Herself">I don't regret a thing I've done. I only regret the things I didn't do.</citation>
+
+         <citation id="c11" auteur="Goldie Hawn">Oh, but she's a woman's woman. I mean, she is everything a woman should be. She's the kind of woman men aren't afraid of because she's so warm. She has a real quality. It's too bad she isn't queen of some country.</citation>
+      </citations>
+   </perso>
+
+   <roles>
+      <role filmref="f1" personnage="Herself" date="1996" misc="(archive footage)">Orson Welles: The One-Man Band</role>
+
+      <role filmref="f2" personnage="Herself" date="1995" misc="(TV)">First 100 Years: A Celebration of American Movies, The</role>
+
+      <role filmref="f3" personnage="Actress in 'Spellbound' Clip" date="1993" misc="(uncredited)">Theremin: An Electronic Odyssey</role>
+
+      <role filmref="f4" personnage="Herself" date="1985" misc="(archive footage)">Ingrid</role>
+
+      <role filmref="f5" personnage="Golda Meir" date="1982" misc="(TV)">Woman Called Golda, A</role>
+
+      <role filmref="f6" personnage="Herself" date="1979" misc="(TV)">Salute to Alfred Hitchcock, A</role>
+
+      <role filmref="f7" personnage="Charlotte" date="1978">Höstsonaten</role>
+
+      <role filmref="f8" personnage="Countess Sanziani" date="1976">Matter of Time, A</role>
+
+      <role filmref="f9" personnage="Herself" date="1975" misc="(TV)">Salute to Orson Welles, A</role>
+
+      <role filmref="f10" personnage="Greta" date="1974">Murder on the Orient Express</role>
+
+      <role filmref="f11" personnage="Mrs. Frankweiler" date="1973">From the Mixed-Up Files of Mrs. Basil E. Frankweiler</role>
+
+      <role filmref="f12" personnage="Herself" date="1970">Henri Langlois</role>
+
+      <role filmref="f13" personnage="Libby Meredith" date="1970">Walk in the Spring Rain</role>
+
+      <role filmref="f14" personnage="Herself" date="1969" misc="(TV)">Hollywood: The Selznick Years</role>
+
+      <role filmref="f15" personnage="Stephanie Dickinson" date="1969">Cactus Flower</role>
+
+      <role filmref="f16" personnage="Herself" date="1967" misc="(TV)">Human Voice, The</role>
+
+      <role filmref="f17" personnage="Mathilde Hartman" date="1967">Stimulantia</role>
+
+      <role filmref="f18" personnage="Herself" date="1965">Love Goddesses, The</role>
+
+      <role filmref="f19" personnage="Gerda Millett" date="1965">Yellow Rolls-Royce, The</role>
+
+      <role filmref="f20" personnage="Karla Zachanassian" date="1964">Visit, The</role>
+
+      <role filmref="f21" personnage="Hedda Gabler" date="1963" misc="(TV)">Hedda Gabler</role>
+
+      <role filmref="f22" personnage="Herself (cameo appearance)" date="1961" misc="(uncredited)">Auguste</role>
+
+      <role filmref="f23" personnage="Paula Tessier" date="1961">Goodbye Again</role>
+
+      <role filmref="f24" personnage="Herself" date="1961" misc="(TV)">Twenty-Four Hours in a Woman's Life</role>
+
+      <role filmref="f25" personnage="Governess" date="1959" misc="(TV)">Turn of the Screw, The</role>
+
+      <role filmref="f26" personnage="Gladys Aylward" date="1958">Inn of the Sixth Happiness, The</role>
+
+      <role filmref="f27" personnage="Anne Kalman" date="1958">Indiscreet</role>
+
+      <role filmref="f28" personnage="Anastasia" date="1956">Anastasia</role>
+
+      <role filmref="f29" personnage="Elena Sokorowska" date="1956">Elena et les hommes</role>
+
+      <role filmref="f30" personnage="Giovanna d'Arco (Joan of Arc)" date="1954">Giovanna d'Arco al rogo</role>
+
+      <role filmref="f31" personnage="Irene Wagner" date="1954">Paura, La</role>
+
+      <role filmref="f32" personnage="Herself" date="1953">Siamo donne</role>
+
+      <role filmref="f33" personnage="Katherine Joyce" date="1953">Viaggio in Italia</role>
+
+      <role filmref="f34" personnage="Irene Girard" date="1951">Europa '51</role>
+
+      <role filmref="f35" personnage="Karin" date="1949">Stromboli</role>
+
+      <role filmref="f36" personnage="Lady Henrietta Flusky" date="1949">Under Capricorn</role>
+
+      <role filmref="f37" personnage="Joan" date="1948">Joan of Arc</role>
+
+      <role filmref="f38" personnage="Joan Madou" date="1948">Arch of Triumph</role>
+
+      <role filmref="f39" personnage="Alicia Huberman" date="1946">Notorious</role>
+
+      <role filmref="f40" personnage="Clio Dulaine" date="1945">Saratoga Trunk</role>
+
+      <role filmref="f41" personnage="Sister Benedict" date="1945">Bells of St. Mary's, The</role>
+
+      <role filmref="f42" personnage="Dr. Constance Peterson" date="1945">Spellbound</role>
+
+      <role filmref="f43" personnage="Paula Alquist" date="1944">Gaslight</role>
+
+      <role filmref="f44" personnage="Herself" date="1943">Swedes in America</role>
+
+      <role filmref="f45" personnage="María" date="1943">For Whom the Bell Tolls</role>
+
+      <role filmref="f46" personnage="Ilsa Lund Laszlo" date="1942">Casablanca</role>
+
+      <role filmref="f47" personnage="Emilie Gallatin" date="1941">Adam Had Four Sons</role>
+
+      <role filmref="f48" personnage="Ivy Peterson" date="1941">Dr. Jekyll and Mr. Hyde</role>
+
+      <role filmref="f49" personnage="Stella Bergen" date="1941">Rage in Heaven</role>
+
+      <role filmref="f50" personnage="Kerstin Norbäck/Sara Nordanå" date="1940">Juninatten</role>
+
+      <role filmref="f51" personnage="Anita Hoffman" date="1939">Intermezzo (remake)</role>
+
+      <role filmref="f52" personnage="Eva Beckman" date="1939">En enda natt</role>
+
+      <role filmref="f53" personnage="Anna Holm/Miss Paulsson" date="1938">Kvinnas ansikte, En</role>
+
+      <role filmref="f54" personnage="Marianne" date="1938">Vier Gesellen, Die</role>
+
+      <role filmref="f55" personnage="Julia Balzar" date="1938">Dollar</role>
+
+      <role filmref="f56" personnage="Anita Hoffman" date="1936">Intermezzo</role>
+
+      <role filmref="f57" personnage="Eva Bergh" date="1936">På solsidan</role>
+
+      <role filmref="f58" personnage="Lena Bergström" date="1935">Valborgsmässoafton</role>
+
+      <role filmref="f59" personnage="Astrid" date="1935">Swedenhielms</role>
+
+      <role filmref="f60" personnage="Karin Ingman" date="1935">Bränningar</role>
+
+      <role filmref="f61" personnage="Elsa Edlund" date="1935">Munkbrogreven</role>
+
+      <role filmref="f62" personnage="Girl waiting in line" date="1932" misc="(uncredited)">Landskamp</role>
+   </roles>
+</filmographie>
+

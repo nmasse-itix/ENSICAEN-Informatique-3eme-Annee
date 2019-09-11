@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" />
+  <xsl:template match="/">
+    <filmographie>
+    <xsl:apply-templates select="//role">
+      <xsl:sort order="ascending" select="./@date"/>
+    </xsl:apply-templates>
+    </filmographie>
+  </xsl:template>
+
+
+  <!--
+      replace every role element by a film element
+  -->
+  <xsl:template match="role">
+    <xsl:variable name="filmId">
+      <xsl:value-of select="./@filmref"/>
+    </xsl:variable>
+    <xsl:element name="film">
+      <xsl:attribute name="filmref">
+	<xsl:value-of select="@filmref"/>
+      </xsl:attribute>
+      <xsl:apply-templates select="/filmographie/resumes/resume[@filmref=$filmId]" mode="att"/>
+      <xsl:attribute name="date">
+	<xsl:value-of select="@date"/>
+      </xsl:attribute>
+      <xsl:attribute name="misc">
+	<xsl:value-of select="@misc"/>
+      </xsl:attribute>
+      <xsl:attribute name="personnage">
+	<xsl:value-of select="@personnage"/>
+      </xsl:attribute>
+      <xsl:element name="titre">
+	 <xsl:value-of select="./text()"/>
+      </xsl:element>
+      <xsl:element name="resume">
+	<xsl:apply-templates select="/filmographie/resumes/resume[@filmref=$filmId]" mode="elem"/>
+      </xsl:element>
+	<xsl:apply-templates select="/filmographie/aliases/alias[@filmref=$filmId]"/>
+    </xsl:element>
+  </xsl:template>
+
+
+  <!--
+      foreach film, get img, pdf and director info from resume
+  -->
+  <xsl:template match="resume" mode="att">
+    <xsl:attribute name="img">
+      <xsl:value-of select="./@img"/>
+    </xsl:attribute>
+    <xsl:attribute name="pdf">
+      <xsl:value-of select="./@pdf"/>
+    </xsl:attribute>
+    <xsl:attribute name="realisateur">
+      <xsl:value-of select="./@realisateur"/>
+    </xsl:attribute>
+  </xsl:template>
+
+
+  <!--
+      foreach film, print resume
+  -->
+  <xsl:template match="resume" mode="elem">
+    <xsl:value-of select="."/>
+  </xsl:template>
+
+
+  <!--
+      foreach film, copy every aliases
+  -->
+  <xsl:template match="alias">
+    <xsl:copy>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+
+</xsl:stylesheet>

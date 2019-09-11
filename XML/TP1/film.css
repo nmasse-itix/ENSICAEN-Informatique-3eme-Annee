@@ -1,0 +1,140 @@
+filmographie, resumes, aliases, perso, roles, resume, p {
+  display: block;
+  text-align: justify;
+}
+
+resumes:before {
+  content: "Résumé";
+}
+
+aliases:before {
+  content: "Autres titres";
+}
+
+roles:before {
+  content: "Roles";
+}
+
+resumes:before, aliases:before, roles:before, nom {
+  font-size: 26pt;
+  text-align: center;
+  margin-bottom: 10pt;
+  display: block;
+}
+
+resume:before {
+  content: attr(realisateur) " : ";
+  font-weight: bold;
+}
+
+role:before {
+  content: attr(date) " - " attr(personnage) " : ";
+  font-weight: bold;
+}
+
+alias:before {
+  content: attr(date) " : " attr(pays);
+  font-weight: bold;
+  display: block;
+  list-style-position: inside;
+}
+
+naissance:before {
+  content: "Birth: " attr(jour) " " attr(mois) " " attr(annee);
+}
+
+mort:before {
+  content: "Death: " attr(jour) " " attr(mois) " " attr(annee);
+}
+
+mort {
+  margin-bottom: 40pt;
+}
+
+naissance, mort {
+  display: block;
+  text-align: center;
+  font-size: larger;
+}
+
+biographie, infos, citations, mariages {
+  display:block;
+  margin-left: 15pt;
+}
+
+biographie:before, infos:before, citations:before, mariages:before {
+  font-weight: bold;
+  margin-left: -15pt;
+  display: block;
+}
+
+biographie:before {
+  content: "Biographie: ";
+}
+
+infos:before {
+  content: "Informations: ";
+}
+
+citations:before {
+  content: "Citations: ";
+}
+
+mariages:before {
+  content: "Mariages: ";
+}
+
+mariage:before {
+  content: attr(debut) " - " attr(fin) " : ";
+  font-weight: bold;
+}
+
+mariage:after {
+  content: " (" attr(conclusion) ")";
+}
+
+mariage {
+  display: block;
+}
+
+
+alias, resume {
+  display: block;
+  text-indent: -15pt;
+  margin-left: 15pt;
+}
+
+role, citations citation, info {
+  display: list-item;
+  list-style-position: inside;
+}
+
+citation {
+  font-style: italic;
+}
+
+citation:before, citation:after {
+  content: "\"";
+}
+
+nom {
+  font-variant: small-caps;
+}
+
+p, resume, alias, biographie, infos, citations, mariages {
+  margin-bottom: 5pt;
+}
+
+i {
+  font-style: italic;
+}
+
+filmographie {
+  padding: 5pt;
+}
+
+resumes, aliases, roles, perso {
+  padding: 5pt;
+  margin: 20pt;
+}
+

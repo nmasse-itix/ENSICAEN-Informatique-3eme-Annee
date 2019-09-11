@@ -1,0 +1,17 @@
+thead {
+  background-color: lightgray;
+}
+
+table {
+  width: 100%;
+/*  border-style: solid; */
+  margin: 10pt;
+  border-collapse: collapse;
+}
+
+td {
+  border-style: solid;
+  border-spacing: 0pt;
+  border-width: 1pt;
+  padding: 3pt;
+}

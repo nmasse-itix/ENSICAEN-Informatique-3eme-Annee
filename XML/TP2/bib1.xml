@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf8"?>
+<!DOCTYPE bibliographie SYSTEM "./biblio.dtd">
+<bibliographie
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="biblio.xsd">
+  
+  <livre>
+    <titre>Mon chien, mon routeur Wifi et Moi</titre>
+    <auteur>Nicolas MASSE</auteur>
+    <infosEdition>
+      <editeur>O'Reilly</editeur>
+      <lieuEdition>USA</lieuEdition>
+      <lieuImpression>Evreux</lieuImpression>
+      <ISBN>012345678X</ISBN>
+    </infosEdition>
+    <avis>Très bien, c'est moi qui l'ai écrit !</avis>
+  </livre>
+
+  <article>
+    <titre>Les schtroumpfs à la mer</titre>
+    <auteur>Peyo</auteur>
+    <infosPublication nomJournal="Les schtroumpfs - le collector"> 
+      <pages>145 à 234</pages>
+      <anneePublication>2006</anneePublication>
+      <numeroJournal>23</numeroJournal>
+    </infosPublication>
+    <avis>Très bien (la schtroumpfette est en bikini)</avis>
+  </article>
+
+  <livre>
+    <titre sousTitre="Courte introduction">Influence des technologies XML sur la reproduction des bactéries sous les aiselles des pingouins</titre>
+    <auteur>W3C</auteur>
+    <tomes>
+      <tome nbPages="874" />
+      <tome nbPages="1265" sousTitre="Complément d'information"/>
+    </tomes>
+    <infosEdition>
+      <editeur>Les éditions désorganisées du Parti</editeur>
+      <lieuEdition>ex U.R.S.S.</lieuEdition>
+      <lieuImpression>Zimbabwe</lieuImpression>
+      <ISBN>1111111111</ISBN>
+    </infosEdition>
+  </livre>
+</bibliographie>
+

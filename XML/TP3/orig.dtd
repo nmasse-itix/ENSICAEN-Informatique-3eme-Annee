@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!ELEMENT discographie (groupes,musiciens,disques)>
+	<!ELEMENT groupes (groupe)+>
+		<!ELEMENT groupe (#PCDATA)>
+			<!ATTLIST groupe id ID #REQUIRED  
+                  			 url CDATA #REQUIRED 
+                   	    	         img CDATA #REQUIRED
+                	>
+	<!ELEMENT musiciens (musicien)+>
+            	<!ELEMENT musicien (#PCDATA|instruments|bio)*>
+			<!ATTLIST musicien groupe IDREF #REQUIRED
+                     			   id CDATA #REQUIRED
+			>
+			<!ELEMENT instruments (#PCDATA)>
+			<!ELEMENT bio EMPTY>
+				<!ATTLIST bio naissance CDATA #REQUIRED
+					      mort CDATA #REQUIRED
+				>
+	<!ELEMENT disques (disque)+>
+		<!ELEMENT disque (#PCDATA)>
+			<!ATTLIST disque groupe IDREF #REQUIRED
+					 id CDATA #REQUIRED
+					 annee CDATA #REQUIRED
+					 img CDATA #REQUIRED
+			>
